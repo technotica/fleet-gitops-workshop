@@ -20,6 +20,10 @@ org_settings:
     host_expiry_window: 30
   org_info:
     org_name: Meow Meow Meow
+  webhook_settings:
+    activities_webhook:
+      enable_activities_webhook: true
+      destination_url: https://www.example.org
   secrets:
     - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
   features:
