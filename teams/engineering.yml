@@ -33,14 +33,14 @@ controls:
     - path: ../lib/macos/scripts/set-timezone.script.sh
     - path: ../lib/windows/scripts/set-wallpaper.ps1
   enable_disk_encryption: true
-team_settings:
-  webhook_settings:
-    failing_policies_webhook:
-      enable_failing_policies_webook: true
-      destination_url: https://example.org/webhook_handler
-      host_batch_size: 0
-      policy_ids:
-      - 47
+  team_settings:
+    webhook_settings:
+      failing_policies_webhook:
+        enable_failing_policies_webook: true
+        destination_url: https://example.org/webhook_handler
+        host_batch_size: 0
+        policy_ids:
+        - 47
   secrets:
     - secret: "$FLEET_ENGINEERING_ENROLL_SECRET"
   features:
