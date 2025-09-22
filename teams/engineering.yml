@@ -40,7 +40,7 @@ team_settings:
       destination_url: https://example.org/webhook_handler
       host_batch_size: 0
       policy_ids:
-        - 47
+      - 47
   secrets:
     - secret: "$FLEET_ENGINEERING_ENROLL_SECRET"
   features:
